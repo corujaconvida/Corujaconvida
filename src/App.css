@@ -1,0 +1,38 @@
+@import 'leaflet/dist/leaflet.css';
+
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #26C3A5;
+  color: white;
+}
+
+.coruja-logo {
+  height: 40px;
+}
+
+.events-page {
+  display: flex;
+  flex: 1;
+}
+
+.eventos-lista {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #f0f0f0;
+}
+
+.eventos-mapa {
+  flex: 1;
+  height: 100%;
+}
